@@ -1,3 +1,4 @@
+import animation from "tailwindcss-animated"
 // tailwind.config.js
 module.exports = {
   content: [
@@ -6,5 +7,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [animation],
 };

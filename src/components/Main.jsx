@@ -4,36 +4,44 @@ export const Main = () => {
 
     const url_foto = "https://static.wixstatic.com/media/c837a6_a5f904abc9224779abfc65cb53fa6ba7~mv2.jpg/v1/crop/x_158,y_151,w_1117,h_1117/fill/w_600,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/gettyimages-1284121212-2048x2048_edited_.jpg"
 
+    const url_foto_h = "https://i.pinimg.com/736x/c6/cc/83/c6cc83e01a447b5c81a7ba726bf374ff.jpg"
+
     return (
-        <div className='h-screen flex justify-center items-center'>
-            <div className="flex">
-                <div className="w-1/2 bg-transparent-200 p-1 rounded-full">
-                    <img src={url_foto} alt="Mi Foto" className='rounded-full' />
+        <div className="min-h-screen flex items-center justify-center container mx-auto animate-fade animate-duration-[2.5s] ">
+
+            <div className="flex flex-wrap">
+                <div className="w-full md:w-1/2 p-4 invertir-img">
+                    <img src={url_foto_h} alt="Mi Foto" className='rounded-full' />
                 </div>
-                <div className="w-1/2 p-4 text-left grid items-center"> {/* Columna 2 */}
-                    <h1 className='text-8xl text-black font-bold'>Hola</h1>
-                    <h2 className='text-4xl text-black font-bold'>Un poco de mí</h2>
-                    <p className='text 2xl text-black'>
-                        +1 año experiencia en Desarrollo Web. <br />
+
+                <div className="w-full md:w-1/2 md:flex md:flex-col md:items-left md:justify-center px-10">
+                    <h1 className='text-8xl text-black font-bold mb-10'>
+                        Hola
+                    </h1>
+                    <h1 className='text-4xl text-black font-bold mb-2'>
+                        Un poco de mí
+                    </h1>
+                    <p className='text-2xl text-black'>
+                        Soy <strong>Adderly Mendoza Nina</strong>, Bachiller en Ingeniería de Sistemas y esta página web es para ti.
                     </p>
-                    <p>
-                        Soy Adderly Mendoza Nina, desarrollador web
-                        y esta página es para ti.
+                    <p className='text-2xl text-black mb-10'>
+                        De un estudiante a otro. ¡Espero disfrute y aprenda mucho!
                     </p>
-                    <div className='flex items-center'>
-                        <div class="rounded-full h-36 w-36 bg-yellow-500 flex items-center justify-center">
-                            Curriculum
-                        </div>
-                        <div class="rounded-full h-36 w-36 bg-red-500 flex items-center justify-center">
+                    <div className='flex flex-wrap text-2xl'>
+                        <a href="http://localhost:3000/" className='rounded-full bg-red-400 hover:bg-red-600 md:w-1/3 p-4 text-center'>
+                            Currículum
+                        </a>
+                        <a href="http://localhost:3000/" className='rounded-full bg-yellow-300 hover:bg-yellow-500 md:w-1/3 p-4 text-center'>
                             Proyectos
-                        </div>
-                        <div class="rounded-full h-36 w-36 bg-blue-200 flex items-center justify-center">
-                            Contactos
-                        </div>
+                        </a>
+                        <a href="http://localhost:3000/" className='rounded-full bg-blue-300 hover:bg-blue-500 md:w-1/3 p-4 text-center'>
+                            Contacto
+                        </a>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     )
 }
+
