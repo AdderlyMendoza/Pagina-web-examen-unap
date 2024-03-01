@@ -7,7 +7,7 @@ function App() {
     <div className="App h-screen">
         <Main />
         <Footer/>
-        <Footer/>
+        <Main/>
     </div>
   );
 }
