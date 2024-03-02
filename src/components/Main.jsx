@@ -9,7 +9,7 @@ export const Main = () => {
     const url_foto_h = "https://i.pinimg.com/736x/c6/cc/83/c6cc83e01a447b5c81a7ba726bf374ff.jpg"
 
     return (
-        <div className="flex items-center justify-center animate animate-fade animate-duration-[2s]">
+        <div className="h-full flex items-center justify-center animate animate-fade animate-duration-[2s]">
             <div className="flex flex-wrap">
 
                 <div className="w-full md:w-1/2 p-4 flex items-center justify-end md:text-right">
@@ -27,7 +27,7 @@ export const Main = () => {
                         Soy <strong>Adderly Mendoza Nina</strong>, Bachiller en Ingeniería de Sistemas y esta página web es para ti.
                     </p>
                     <p className='text-2xl text-black mb-10'>
-                        De un estudiante a otro. ¡Espero disfrute y aprenda mucho! 
+                        De un estudiante a otro. ¡Espero disfrute y aprenda mucho!
                     </p>
                     <div className='md:flex md:flex-wrap flex justify-center'>
 

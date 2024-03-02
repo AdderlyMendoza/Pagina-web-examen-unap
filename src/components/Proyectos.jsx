@@ -2,8 +2,10 @@ import React from 'react'
 
 export const Proyectos = () => {
     return (
-        <>
-            PROYECTOS
-        </>
+        <div>
+            AQUI IRA MIS PROYECTOS
+
+        </div>
+
     )
 }
