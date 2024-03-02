@@ -9,15 +9,17 @@ import { Footer } from './components/Footer';
 
 const App = () => {
   return (
-    <Router> {/* ESTO AYUDA A MANEJAR LAS RUTAS */}
-      <Header />
-      <Routes> {/* ESTO NOS AYUDA A DIFERENCIAR LOS LINKS */}
-        <Route path="/" element={<Home />} /> {/* ESTO NOS AYUDA A CREAR LAS RUTAS */}
-        <Route path="/Curriculum" element={<Curriculum />} />
-        <Route path="/Proyectos" element={<Proyectos />} />
-        <Route path="/Contacto" element={<Contacto />} />
-      </Routes>
-      <Footer />
+    <Router>
+      <div className="flex flex-col h-screen"> {/* flex-col: diseño de columna */}
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Curriculum" element={<Curriculum />} />
+          <Route path="/Proyectos" element={<Proyectos />} />
+          <Route path="/Contacto" element={<Contacto />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 };

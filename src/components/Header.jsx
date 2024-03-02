@@ -7,7 +7,7 @@ export const Header = () => {
 
     return (
         <>
-            <header className="bg-gray-800 text-white p-4 flex items-center justify-between">
+            <header className="bg-gray-800 text-white p-4 flex items-center justify-between w-full h-20">
                 <div className="flex items-center">
                     <div className="text-xl font-bold">
                         <img src={url_foto_h} className='rounded-full h-12' />
