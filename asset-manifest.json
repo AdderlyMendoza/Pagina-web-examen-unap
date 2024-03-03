@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PortafolioAdderlyMN/static/css/main.c1a1e2aa.css",
+    "main.js": "/PortafolioAdderlyMN/static/js/main.965ab69f.js",
+    "static/js/453.d8f55d23.chunk.js": "/PortafolioAdderlyMN/static/js/453.d8f55d23.chunk.js",
+    "index.html": "/PortafolioAdderlyMN/index.html",
+    "main.c1a1e2aa.css.map": "/PortafolioAdderlyMN/static/css/main.c1a1e2aa.css.map",
+    "main.965ab69f.js.map": "/PortafolioAdderlyMN/static/js/main.965ab69f.js.map",
+    "453.d8f55d23.chunk.js.map": "/PortafolioAdderlyMN/static/js/453.d8f55d23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1a1e2aa.css",
+    "static/js/main.965ab69f.js"
+  ]
+}
